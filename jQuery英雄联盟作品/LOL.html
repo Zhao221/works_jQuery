@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="LOL.css" />
+		<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="BIG">
+			<div class="Small">
+
+				<div id="header">
+					<div id="hero-data">
+						<h2 class="h2-title">英雄资料</h2>
+					</div>
+					<div id="function">
+						<div id="button">
+							<button type="button" id="button1">增加</button>
+							<button type="button" id="button2">删除</button>
+							<button type="button" id="button3">更改</button>
+							<button type="button" id="button4">重置</button>
+						</div>
+
+						<input type="text" id="search" placeholder="请输入你想要查询英雄的名字">
+					</div>
+				</div>
+
+
+				<ul id="hero1">
+
+				</ul>
+			</div>
+			<div id="box1">
+				<form>
+					<div class="form-group1">
+						<label for="recipient-role" class="label1">身份：</label>
+						<input type="text" class="role" id="recipient-role" placeholder="请输入你的身份">
+					</div>
+					<div class="form-group2">
+						<label for="message-text" class="label2">名字：</label>
+						<input type="text" class="name" id="message-text" placeholder="请输入你的名字">
+					</div>
+				</form>
+				<div class="modal-footer">
+					<button type="button" id="button5">close</button>
+					<button type="button" id="button6">right</button>
+				</div>
+				<div id="photo">
+					<img src="" alt="请选择你要的图片" id="img" style="width:80px;height:80px;border: 1px solid black;">
+					<input type="file" id="file">
+				</div>
+
+			</div>
+			<div id="box2">
+				<form>
+					<div class="form-group1">
+						<label for="recipient-changerole" class="label1">身份：</label>
+						<input type="text" class="role" id="changerole" placeholder="请输入你的身份">
+					</div>
+					<div class="form-group2">
+						<label for="message-changetext" class="label2">名字：</label>
+						<input type="text" class="name" id="changename" placeholder="请输入你的名字">
+					</div>
+				</form>
+				<div class="modal-footer">
+					<button type="button" id="button7">close</button>
+					<button type="button" id="button8">right</button>
+				</div>
+				<div id="photo">
+					<img src=" " alt="请选择你要的图片" id="changeimg" style="width:80px;height:80px;border: 1px solid black;">
+					<input type="file" id="changefile">
+				</div>
+			
+			</div>
+		<!-- 	<div id="box3">
+				<span>该英雄不存在!</span>
+				<button type="button" id="button9">确定</button>
+			</div> -->
+		</div>
+	</body>
+	<script type="text/javascript" src="LOL.js"></script>
+</html>
